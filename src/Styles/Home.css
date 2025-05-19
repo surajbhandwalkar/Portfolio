@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('E:\REACT\Portfolio\my-app\src\Images\Home.jpg');
+    url('../Images/Home.jpg');
   background-size: cover;
   background-position: center;
   color: white;

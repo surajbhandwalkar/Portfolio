@@ -1,0 +1,46 @@
+
+.contact-section {
+   height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('E:\REACT\Portfolio\my-app\src\Images\img2.jpg');
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: rgb(18, 4, 4);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+
+.contact-section h2 {
+
+font-size: 2.5rem;
+  color: steelblue;
+  text-shadow: rgb(255, 47, 0) 0px 0px 3px;
+  padding-top: 10%;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+    color: white;
+}
+
+.contact-section a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}

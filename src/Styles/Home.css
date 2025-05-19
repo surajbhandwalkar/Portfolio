@@ -1,0 +1,49 @@
+
+.home-section {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('E:\REACT\Portfolio\my-app\src\Images\Home.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.home-section h1 {
+  font-size: 2.7rem;
+  color:rgb(136, 159, 182);
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 1.6rem;
+  color: black;
+  text-shadow: white 0px 0px 10px;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.home-section .btn {
+  padding: 10px 25px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-section .btn:hover {
+  background-color: #008fa1;
+}
